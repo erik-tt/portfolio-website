@@ -1,0 +1,199 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(0, 0, 0);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.topnav {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+ 
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+  margin-right:20px;
+  background-color: rgb(0, 0, 0);
+}
+
+.topnav a:hover {
+  background-color: rgba(171, 160, 160, 0.169);
+}
+
+.cvpic {
+  width: 15%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+  margin-top: 70px;
+  height: 15%;
+
+}
+
+.intro {
+  padding-top: 5%;
+  height: auto;
+  width: 100%;
+  display: inline-block; 
+  background-color: rgb(119, 196, 244);
+}
+
+.introParagraph {
+  padding: 50px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  width: 70%;
+  display: inline-block;
+  line-height: 40px;
+}
+
+
+
+.top-section {
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./pictures/IMG_0440.jpeg');
+}
+
+.transition {
+  min-height: 600px;
+  padding-top: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./pictures/IMG_2704\ 2.JPG');
+}
+
+.first-transition {
+  min-height: 600px;
+  padding-top: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./pictures/IMG_2721.JPG');
+}
+
+.second-transition {
+  min-height: 700px;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./pictures/IMG_0262.jpeg');
+}
+
+
+.top-header {
+  padding-top: 250px;
+}
+
+
+
+h1, h2 {
+  font-size: 50px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-size: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+  font-size: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  width: 70%;
+  display: inline-block;
+  line-height: 30px;
+}
+
+
+.footer {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  width:100%;
+  justify-content: center;
+  height: 150px;
+  color: white;
+  overflow: auto;
+}
+
+
+
+.linkedin-icon, .github-icon {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.my-experience {
+  background-color: black;
+  padding: 30px;
+  ;
+}
+
+.icon {
+  margin-top: 40px;
+}
+
+.learned {
+  background-color: darkgray;
+  padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+/* move picture to the right*/
